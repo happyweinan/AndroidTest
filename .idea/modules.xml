@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidTest.iml" filepath="$PROJECT_DIR$/AndroidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChangePosition/ChangePosition.iml" filepath="$PROJECT_DIR$/ChangePosition/ChangePosition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Databinding/Databinding.iml" filepath="$PROJECT_DIR$/Databinding/Databinding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rocket/Rocket.iml" filepath="$PROJECT_DIR$/Rocket/Rocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Transition/Transition.iml" filepath="$PROJECT_DIR$/Transition/Transition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewOverlay/ViewOverlay.iml" filepath="$PROJECT_DIR$/ViewOverlay/ViewOverlay.iml" />
+    </modules>
+  </component>
+</project>

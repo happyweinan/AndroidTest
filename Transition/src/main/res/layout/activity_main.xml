@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Main activity" />
+
+    <Button
+        android:id="@+id/trans_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="Transition" />
+
+    <ImageView
+        android:id="@+id/circle_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/trans_btn"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/circle_24dp"
+        android:tint="#5c80e4"
+        android:transitionName="@string/square_blue_name" />
+
+    <Button
+        android:id="@+id/share_element_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trans_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/circle_iv"
+        android:text="Share Element"
+        android:transitionName="hello" />
+
+    <Button
+        android:id="@+id/scene_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/share_element_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Scene" />
+</RelativeLayout>
